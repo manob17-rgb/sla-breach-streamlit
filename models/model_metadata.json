@@ -1,0 +1,161 @@
+{
+  "model_version": "v1.0-midterm-DT-depth3",
+  "algorithm": "DecisionTreeClassifier(max_depth=3, random_state=42)",
+  "trained_at_utc": "2026-10-26T04:36:04+00:00",
+  "sklearn_version": "1.8.0",
+  "features": [
+    "Service_Type",
+    "Priority",
+    "Queue_Category",
+    "Assigned_Office",
+    "Submission_Weekday"
+  ],
+  "target": "SLA_Breached",
+  "n_total": 40,
+  "n_train": 32,
+  "n_test": 8,
+  "metrics": {
+    "accuracy": 0.875,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1": 0.8888888888888888,
+    "baseline_accuracy": 0.5,
+    "improvement_over_baseline": 0.375
+  },
+  "confusion_matrix": [
+    [
+      3,
+      1
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "feature_importance": {
+    "cat__Queue_Category_Low": 0.4958677685950414,
+    "cat__Priority_Medium": 0.390495867768595,
+    "remainder__Submission_Weekday": 0.11363636363636365
+  },
+  "test_cases": [
+    {
+      "Request_ID": "RQ016",
+      "Service_Type": "Leave of absence",
+      "Priority": "Medium",
+      "Queue_Category": "Low",
+      "Assigned_Office": "Student affairs",
+      "Submission_Weekday": 2,
+      "Actual": 0,
+      "Predicted": 0,
+      "P_breach": 0.0
+    },
+    {
+      "Request_ID": "RQ029",
+      "Service_Type": "Scholarship renewal",
+      "Priority": "Low",
+      "Queue_Category": "Low",
+      "Assigned_Office": "Scholarship unit",
+      "Submission_Weekday": 1,
+      "Actual": 0,
+      "Predicted": 0,
+      "P_breach": 0.0
+    },
+    {
+      "Request_ID": "RQ035",
+      "Service_Type": "Graduation clearance",
+      "Priority": "High",
+      "Queue_Category": "Critical",
+      "Assigned_Office": "Registrar",
+      "Submission_Weekday": 0,
+      "Actual": 1,
+      "Predicted": 1,
+      "P_breach": 1.0
+    },
+    {
+      "Request_ID": "RQ025",
+      "Service_Type": "Transcript of records",
+      "Priority": "High",
+      "Queue_Category": "Critical",
+      "Assigned_Office": "Records office",
+      "Submission_Weekday": 4,
+      "Actual": 1,
+      "Predicted": 1,
+      "P_breach": 1.0
+    },
+    {
+      "Request_ID": "RQ014",
+      "Service_Type": "Enrollment verification",
+      "Priority": "Low",
+      "Queue_Category": "Low",
+      "Assigned_Office": "Registrar",
+      "Submission_Weekday": 0,
+      "Actual": 0,
+      "Predicted": 0,
+      "P_breach": 0.0
+    },
+    {
+      "Request_ID": "RQ003",
+      "Service_Type": "Id replacement",
+      "Priority": "High",
+      "Queue_Category": "Critical",
+      "Assigned_Office": "Student affairs",
+      "Submission_Weekday": 3,
+      "Actual": 1,
+      "Predicted": 1,
+      "P_breach": 1.0
+    },
+    {
+      "Request_ID": "RQ021",
+      "Service_Type": "Document request",
+      "Priority": "Medium",
+      "Queue_Category": "Moderate",
+      "Assigned_Office": "Records office",
+      "Submission_Weekday": 0,
+      "Actual": 0,
+      "Predicted": 1,
+      "P_breach": 0.6666666667
+    },
+    {
+      "Request_ID": "RQ002",
+      "Service_Type": "Academic record",
+      "Priority": "High",
+      "Queue_Category": "Moderate",
+      "Assigned_Office": "Registrar",
+      "Submission_Weekday": 2,
+      "Actual": 1,
+      "Predicted": 1,
+      "P_breach": 1.0
+    }
+  ],
+  "known_categories": {
+    "Service_Type": [
+      "Academic record",
+      "Document request",
+      "Enrollment verification",
+      "Graduation clearance",
+      "Id replacement",
+      "Leave of absence",
+      "Scholarship renewal",
+      "Subject overload",
+      "Transcript of records",
+      "Transfer credentials"
+    ],
+    "Priority": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Queue_Category": [
+      "Critical",
+      "Low",
+      "Moderate"
+    ],
+    "Assigned_Office": [
+      "Academic affairs",
+      "Records office",
+      "Registrar",
+      "Scholarship unit",
+      "Student affairs"
+    ]
+  }
+}

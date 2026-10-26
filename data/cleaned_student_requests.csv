@@ -1,0 +1,41 @@
+Request_ID,Service_Type,Requester_Type,Request_Channel,Priority,Assigned_Office,Queue_Length,Status,Reopened,Processing_Days,SLA_Days,Satisfaction_Score,Submission_Date,SLA_Breached,Submission_Weekday,Queue_Category
+RQ001,Document request,Student,Email,Medium,Records office,7,Completed,No,4,5,4.1,2026-09-01,0,1,Moderate
+RQ002,Academic record,Student,Portal,High,Registrar,14,Completed,No,9,5,3.2,2026-09-02,1,2,Moderate
+RQ003,Id replacement,Student,Walk-in,High,Student affairs,21,Completed,Yes,12,5,2.5,2026-09-03,1,3,Critical
+RQ004,Enrollment verification,Faculty,Portal,Low,Registrar,3,Completed,No,2,5,4.6,2026-09-04,0,4,Low
+RQ005,Transcript of records,Student,Email,High,Records office,18,Completed,No,11,5,2.8,2026-09-05,1,5,Critical
+RQ006,Leave of absence,Student,Portal,Medium,Student affairs,6,Completed,No,5,5,4.0,2026-09-06,0,6,Moderate
+RQ007,Graduation clearance,Student,Walk-in,High,Registrar,25,Completed,No,15,5,2.1,2026-09-07,1,0,Critical
+RQ008,Subject overload,Student,Portal,Medium,Academic affairs,9,Completed,No,6,5,3.8,2026-09-08,1,1,Moderate
+RQ009,Scholarship renewal,Student,Email,Low,Scholarship unit,2,Completed,No,2,5,4.8,2026-09-09,0,2,Low
+RQ010,Transfer credentials,Student,Portal,High,Records office,22,Completed,Yes,13,5,2.3,2026-09-10,1,3,Critical
+RQ011,Document request,Student,Walk-in,Medium,Records office,5,Completed,No,3,5,4.3,2026-09-11,0,4,Low
+RQ012,Academic record,Faculty,Email,High,Registrar,16,Completed,No,8,5,3.0,2026-09-12,1,5,Critical
+RQ013,Id replacement,Student,Portal,Medium,Student affairs,8,Completed,No,5,5,4.2,2026-09-13,0,6,Moderate
+RQ014,Enrollment verification,Student,Email,Low,Registrar,1,Completed,No,1,5,4.9,2026-09-14,0,0,Low
+RQ015,Transcript of records,Student,Walk-in,High,Records office,28,Completed,No,14,5,2.0,2026-09-15,1,1,Critical
+RQ016,Leave of absence,Student,Portal,Medium,Student affairs,4,Completed,No,3,5,4.5,2026-09-16,0,2,Low
+RQ017,Graduation clearance,Student,Email,High,Registrar,19,Completed,Yes,10,5,2.6,2026-09-17,1,3,Critical
+RQ018,Subject overload,Student,Walk-in,Medium,Academic affairs,7,Completed,No,4,5,4.1,2026-09-18,0,4,Moderate
+RQ019,Scholarship renewal,Student,Portal,Low,Scholarship unit,0,Completed,No,1,5,4.9,2026-09-19,0,5,Low
+RQ020,Transfer credentials,Student,Email,High,Records office,24,Completed,No,13,5,2.2,2026-09-20,1,6,Critical
+RQ021,Document request,Student,Portal,Medium,Records office,6,Completed,No,4,5,4.2,2026-09-21,0,0,Moderate
+RQ022,Academic record,Student,Walk-in,High,Registrar,17,Completed,No,9,5,3.1,2026-09-22,1,1,Critical
+RQ023,Id replacement,Faculty,Email,Medium,Student affairs,5,Completed,No,3,5,4.4,2026-09-23,0,2,Low
+RQ024,Enrollment verification,Student,Portal,Low,Registrar,2,Completed,No,2,5,4.7,2026-09-24,0,3,Low
+RQ025,Transcript of records,Student,Walk-in,High,Records office,30,Completed,Yes,16,5,1.9,2026-09-25,1,4,Critical
+RQ026,Leave of absence,Student,Email,Medium,Student affairs,8,Completed,No,5,5,4.0,2026-09-26,0,5,Moderate
+RQ027,Graduation clearance,Student,Portal,High,Registrar,22,Completed,No,11,5,2.4,2026-09-27,1,6,Critical
+RQ028,Subject overload,Student,Walk-in,Medium,Academic affairs,10,Completed,No,6,5,3.9,2026-09-28,1,0,Moderate
+RQ029,Scholarship renewal,Student,Email,Low,Scholarship unit,1,Completed,No,1,5,5.0,2026-09-29,0,1,Low
+RQ030,Transfer credentials,Student,Portal,High,Records office,26,Completed,No,14,5,2.1,2026-09-30,1,2,Critical
+RQ031,Document request,Student,Walk-in,Medium,Records office,4,Completed,No,3,5,4.5,2026-10-01,0,3,Low
+RQ032,Academic record,Faculty,Email,High,Registrar,13,Completed,No,7,5,3.3,2026-10-02,1,4,Moderate
+RQ033,Id replacement,Student,Portal,High,Student affairs,20,Completed,No,11,5,2.7,2026-10-03,1,5,Critical
+RQ034,Leave of absence,Student,Email,Medium,Student affairs,5,Completed,No,4,5,4.3,2026-10-04,0,6,Low
+RQ035,Graduation clearance,Student,Walk-in,High,Registrar,23,Completed,Yes,12,5,2.3,2026-10-05,1,0,Critical
+RQ036,Enrollment verification,Student,Portal,Low,Registrar,0,Completed,No,1,5,4.9,2026-10-06,0,1,Low
+RQ037,Transcript of records,Student,Email,High,Records office,27,Completed,No,14,5,2.0,2026-10-07,1,2,Critical
+RQ038,Subject overload,Student,Walk-in,Medium,Academic affairs,8,Completed,No,5,5,4.0,2026-10-08,0,3,Moderate
+RQ039,Scholarship renewal,Student,Portal,Low,Scholarship unit,3,Completed,No,2,5,4.8,2026-10-09,0,4,Low
+RQ040,Transfer credentials,Student,Email,High,Records office,29,Completed,No,15,5,1.8,2026-10-10,1,5,Critical
